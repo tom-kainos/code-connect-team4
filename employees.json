@@ -2,7 +2,11 @@
   {
     "name": "Muhammad Hamza",
     "address": "BT37 0QB",
+<<<<<<< HEAD
     "salary": 2000,
+=======
+    "salary": 24999,
+>>>>>>> origin/main
     "role": "Software Engineer",
     "id": 1,
     "employeeNumber": "EMP001"

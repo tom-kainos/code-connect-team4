@@ -28,6 +28,7 @@ class EmployeeService {
         return this.readEmployees();
     }
 
+<<<<<<< HEAD
     // Delete an employee by ID
     deleteEmployee(id) {
         const employees = this.readEmployees();
@@ -39,6 +40,8 @@ class EmployeeService {
         return deletedEmployee[0];
     }
 
+=======
+>>>>>>> origin/main
     // Get a single employee by their ID
     getEmployeeById(id) {
         const employees = this.readEmployees();
