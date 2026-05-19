@@ -55,6 +55,28 @@ a {
   text-decoration: underline;
 }
 
+.form-field {
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.input-error {
+  border: 1px solid #e53e3e;
+  outline: none;
+}
+
+.field-error {
+  color: #e53e3e;
+  font-size: 0.95rem;
+  margin-top: 4px;
+}
+
+.general-error {
+  margin-bottom: 18px;
+}
+
 /* removed redundant global `nav` rule to avoid conflicts with .navbar */
 
 /* Footer styles */
